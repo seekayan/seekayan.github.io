@@ -1,0 +1,296 @@
+<!doctype html>
+<html>
+<head>
+	<title>LSAIML</title>
+
+	<!--
+		Importing the css files.
+		-->
+	<link href = "css/frame.css" rel = "stylesheet" type = "text/css" />
+	<link href = "css/bootstrap.min.css" rel = "stylesheet" type = "text/css" />
+	<link href = "css/research.css" rel = "stylesheet" type = "text/css" />
+
+	<!--
+		Setting The Logo!
+		-->
+	<link rel="shortcut icon" href="images/icon.png">
+</head>
+<body onload = "setScreenSize()">
+	<center>
+		<div id = "container">
+
+			<div style = "height:8em; width:85%; border:2px solid transparent; margin-top:0.2em; margin-bottom:-1em">
+				
+				<div id = "top_data" style= "display:inline-block; float:left;">
+				  <h1 style = "font-family:'Varela'; padding:0em; margin-bottom:0em; padding-left:0px; padding-right:0px;"><a href = "http://www.iitrpr.ac.in" style = "color:black" target = "_blank">Indian Institute of Technology Ropar</a></h1>
+					<br><h3 style = "font-family:'Varela';float:left; margin:0em; padding:0em; padding-left:0px;display:inline-block; padding-right:0px">Laboratory of Statistical Artificial Intelligence and Machine Learning (LSAIML)</h3>
+				</div>
+				<img src = "images/logo.jpg" style = "float:right;height:100%; transform:translateY(0.5em)" />
+			</div>
+			<br>
+
+			<div id = "navbar">
+				<br>
+				<div id = "navbar_hr">
+					<hr width = "75%"/>
+				</div>
+				<div id = "navbar_options" style= "font-size:1.1em">
+						<ul class = "toolbar">
+						  <li><a href="./index.html" style= "color:#0000A0">HOME</a></li>
+						  <li><a class="active" href="./research.html" style= "color:#0000A0">RESEARCH</a></li>
+						  <li><a href="./publications.html" style= "color:#0000A0">PUBLICATIONS</a></li>
+						  <li><a href="./teaching.html" style= "color:#0000A0">TEACHING</a></li>
+						  <li><a href="./people.html" style= "color:#0000A0">PEOPLE</a></li>
+						  <li><a href="./resources.html" style= "color:#0000A0">RESOURCES</a></li>
+						</ul>
+				</div>
+			</div>
+
+			<div id = "main_container">
+				<div>
+					<div id = "interests" style = "width:40%; display: inline-block; vertical-align:top; padding-left:1em">
+
+						<center><h3 style = "font-family:'Varela'; transform:translateX(-1em);">- <b>Research Areas</b> -</h3></center>
+						
+						Theory:
+						<ul>
+							<li>Machine Learning</li>
+							<li>Learning under data constraints</li>
+                                <ul>
+                                    <li>Transfer Learning and Domain Adaptation</li>
+                                    <li>Zero-shot and Few-shot Learning </li>
+                                    </ul>
+							<li>Generative Models</li>
+                            <li>Explainable AI</li>
+						</ul>
+						Applications:
+						<ul>
+							<li>Computer Vision and Remote Sensing</li>
+							<li>Ubiquitous Computing</li>
+							<li>ICT for Development</li>
+						</ul>
+					</div>
+					<div id = "funding" style = "display:inline-block;height:20em; float:right;">
+						<center><h3 style = "font-family:'Varela'">- <b>Funding Agencies and Acknowledgements</b> -<h3></center>
+                        <p><img src="images/rfa.png", width = "500", height = 250></p>
+					</div>
+				</div>
+				<br>
+				<br>
+				<br>
+					<div id = "papers_column">
+						<center><h3 style = "font-family:'Varela'">- <b>PROJECTS</b> -</h3></center>
+                        <div class = "research_project">
+                                                    <div class = "research_project_title">
+                                                        <img src="images/new.gif" style = "vertical-align:top"/> Explainable and Interpretable AI
+                                                    </div>
+                                                    <center>
+                                                        <div class = "research_project_images">
+                                                            <img class = "research_projects_image" src = "images/pace.png" />
+                                                            <br>
+                                                        </div>
+                                                        <div class = "research_project_abstract" style = "text-align:justify">
+                                                            <b>Abstract: </b>
+                                                            Deep CNNs, though have achieved the state of the art performance in image classification tasks, remain a black-box to a human using them. There is a growing interest in explaining the working of these deep models to improve their trustworthiness. In this paper, we introduce a Posthoc Architecture-agnostic Concept Extractor (PACE) that automatically extracts smaller sub-regions of the image called concepts relevant to the black-box prediction. PACE tightly integrates the faithfulness of the explanatory framework to the black-box model. To the best of our knowledge, this is the first work that extracts class-specific discriminative concepts in a posthoc manner automatically. The PACE framework is used to generate explanations for two different CNN architectures trained for classifying the AWA2 and Imagenet-Birds datasets. Extensive human subject experiments are conducted to validate the human interpretability and consistency of the explanations extracted by PACE. The results from these experiments suggest that over 72\% of the concepts extracted by PACE are human interpretable.
+                                                        </div>
+                                                    </center>
+                                                    <br>
+                                                    <center>
+                                                        <div class = "research_project_citations">
+                        <p> <img src="images/new.gif" style = "vertical-align:top"/>V Kamakshi, U Gupta, and N C Krishnan, PACE: Posthoc Architecture-Agnostic Concept Extractor for Explaining CNNs, IEEE International Joint Conference on Neural Networks (IJCNN), 2021</p>
+                        <p> <img src="images/new.gif" style = "vertical-align:top"/>R Sharma, N. Reddy, V Kamakshi, N C Krishnan, and S Jain, MAIRE- A Model Agnostic Interpretable Rule Extraction Procedure for Explaining Classifiers, Cross Domain Machine Learning and Knowledge Extraction (CD-MAKE), 2021</p>
+                        <p> <img src="images/new.gif" style = "vertical-align:top"/>S Z S Sunder, V Kamakshi, N Lodhi, and N C Krishnan, Evaluation of Salience-based Explainability Methods, ICML Workshop on Theoretic Foundation, Criticism, and Application Trend of Explainable AI, 2021</p>
+                                                        </div>
+                                                    </center>
+                                                </div>
+                        <div class = "research_project">
+                                                    <div class = "research_project_title">
+                                                        <img src="images/new.gif" style = "vertical-align:top"/> Generative Models
+                                                    </div>
+                                                    <center>
+                                                        <div class = "research_project_images">
+                                                            <img class = "research_projects_image" src = "images/pdg.png" />
+                                                            <br>
+                                                        </div>
+                                                        <div class = "research_project_abstract" style = "text-align:justify">
+                                                            <b>Abstract: </b>
+                                                            Despite the accomplishments of Generative Adversarial Networks (GANs) in modeling data distributions, training them remains a challenging task. A contributing factor to this difficulty is the non-intuitive nature of the GAN loss curves, which necessitates a subjective evaluation of the generated output to infer training progress. Recently, motivated by game theory, duality gap has been proposed as a domain agnostic measure to monitor GAN training. However, it is restricted to the setting when the GAN converges to a Nash equilibrium. But GANs need not always converge to a Nash equilibrium to model the data distribution. In this work, we extend the notion of duality gap to proximal duality gap that is applicable to the general context of training GANs where Nash equilibria may not exist. We show theoretically that the proximal duality gap is capable of monitoring the convergence of GANs to a wider spectrum of equilibria that subsumes Nash equilibria. We also theoretically establish the relationship between the proximal duality gap and the divergence between the real and generated data distributions for different GAN formulations. Our results provide new insights into the nature of GAN convergence. Finally, we validate experimentally the usefulness of proximal duality gap for monitoring and influencing GAN training.
+                                                        </div>
+                                                    </center>
+                                                    <br>
+                                                    <center>
+                                                        <div class = "research_project_citations">
+                        <p><img src="images/new.gif" style = "vertical-align:top"/>S Sidheekh, A Aimen, and N C Krishnan, On Characterizing GAN Convergence Through Proximal Duality Gap, International Conference on Machine Learning (ICML), 2021, <a href="https://github.com/proximal-dg/proximal_dg">code</a></p>
+                        <p><img src="images/new.gif" style = "vertical-align:top"/>S Sidheekh, A Aimen, V Madan, and N C Krishnan, On Duality Gap as a Measure for Monitoring GAN Training, IEEE International Joint Conference on Neural Networks (IJCNN), 2021, <a href="https://github.com/perturbed-dg/Perturbed-Duality-Gap">code</a></p>
+                        <p> P Munjal, A Paul, and N C Krishnan, Implicit Discriminator in Variational Autoencoder, IEEE International Joint Conference on Neural Networks (IJCNN), 2020</p>
+                                                        </div>
+                                                    </center>
+                                                </div>
+<div class = "research_project">
+							<div class = "research_project_title">
+								Zero-shot Learning
+							</div>
+							<center>
+								<div class = "research_project_images">
+									<img class = "research_projects_image" src = "images/sabr.jpg" />
+									<br>
+								</div>
+								<div class = "research_project_abstract" style = "text-align:justify">
+									<b>Abstract: </b>
+ Zero shot learning (ZSL) aims to recognize unseen classes by exploiting semantic relationships between seen and unseen classes. Two major problems faced by ZSL algorithms are the hubness problem and the bias towards the seen classes. Existing ZSL methods focus on only one of these problems in the conventional and generalized ZSL setting. In this work, we propose a novel approach, Semantically Aligned Bias Reducing (SABR) ZSL, which focuses on solving both the problems. It overcomes the hubness problem by learning a latent space that preserves the semantic relationship between the labels while encoding the discriminating information about the classes.  Further, we also propose ways to reduce bias of the seen classes through a simple cross-validation process in the inductive setting and a novel weak transfer constraint in the transductive setting.  Extensive experiments on three benchmark datasets suggest that the proposed model significantly outperforms existing state-of-the-art algorithms by ~1.5-9% in the conventional ZSL setting and by ~2-14% in the generalized ZSL for both the inductive and transductive settings.
+								</div>
+							</center>
+							<br>
+							<center>
+								<div class = "research_project_citations">
+                                    <p><img src="images/new.gif" style = "vertical-align:top"/>A Rai, N C Krishnan, and S Chanda, Pho(SC)Net: An Approach Towards Zero-shot Word Image Recognition in Historical Documents, International Conference on Document Analysis and Research (ICDAR), 2021</p>
+                                    <p>A Paul, P Munjal, and N C Krishnan, Semantically Aligned Bias Reducing Zero-shot Learning, IEEE Conference on Computer Vision and Pattern Recognition, 7056-7065, 2019</p>
+								</div>
+							</center>
+						</div>
+<div class = "research_project">
+							<div class = "research_project_title">
+								Cross-modal Transfer Learning for Caricature Verification and Recognition
+							</div>
+							<center>
+								<div class = "research_project_images">
+									<img class = "research_projects_image" src = "images/RP_Cari/arch.png" />
+									<br>
+								</div>
+								<div class = "research_project_abstract" style = "text-align:justify">
+									<b>Abstract: </b>
+Learning from different modalities is a challenging task that involves determining a shared space that bridges the two modalities. In this paper, we look at the challenging problem of cross modal face verification and recognition between caricature and visual image modalities. Caricature is a modality with images having exaggerations of facial features of a person. Due to the significant variations in the caricatures, building vision models for recognizing and verifying data from this modality is an extremely challenging task. Visual images with significantly lesser amount of distortions can act as a bridge for the analysis of caricature modality. To advance the research in this field, we have created a publicly available large Caricature-VIsual  dataset [CaVI] with images from both the modalities. The dataset captures the rich variations in the caricature of an identity. This paper presents the first cross modal architecture that is able to handle extreme distortions present in caricatures using a deep learning network that learns similar representations across the modalities. We use two convolutional networks along with transformations that are subjected to orthogonality constraints to capture the shared and modality specific representations. In contrast to prior research, our approach neither depends on manually extracted facial landmarks for learning the representations, nor on the identities of the person for performing verification. The learned shared representation achieves 91% accuracy for verifying unseen images and 75% accuracy on unseen identities. Further, recognizing the identity in the image by knowledge transfer using a combination of shared and modality specific representations, resulted in an unprecedented performance of 85% rank-1 accuracy for caricatures and 95% rank-1 accuracy for visual images.
+								</div>
+							</center>
+							<br>
+							<center>
+								<div class = "research_project_citations">
+<a href="https://lsaiml.github.io/CaVINet/index.html">J 2.	J Garg, S V Peri, H Tolani, and N C Krishnan, Deep Cross modal learning for Caricature Verification and Identification (CaVINet), ACM Conference on Multimedia, 1101-1109, 2018.</a>
+								</div>
+							</center>
+						</div>
+<div class = "research_project">
+							<div class = "research_project_title">
+								Predicting Poverty from Satellite Imagery
+							</div>
+							<center>
+								<div class = "research_project_images">
+									<img class = "research_projects_image" src = "images/RP_Sat/sat_filt.png" />
+									<br>
+								</div>
+								<div class = "research_project_abstract" style = "text-align:justify">
+									<b>Abstract: </b>
+Estimating economic and developmental parameters such as poverty levels of a region from satellite imagery is a chal- lenging problem that has many applications. We propose a two step approach to predict poverty in a rural region from satellite imagery. First, we engineer a multi-task fully convo- lutional deep network for simultaneously predicting the ma- terial of roof, source of lighting and source of drinking water from satellite images. Second, we use the predicted develop- mental statistics to estimate poverty. Using full-size satellite imagery as input, and without pre-trained weights, our mod- els are able to learn meaningful features including roads, wa- ter bodies and farm lands, and achieve a performance that is close to the optimum. In addition to speeding up the training process, the multi-task fully convolutional model is able to discern task specific and independent feature representations.
+								</div>
+							</center>
+							<br>
+							<center>
+								<div class = "research_project_citations">
+<a href="https://github.com/agarwalt/satimage">S M Pandey, T Agarwal, and N C Krishnan, Multi-task Deep Learning for Predicting Poverty from Satellite Images,  30th AAAI Conference on Innovative Applications of Artificial Intelligence, 7793-7798, 2018.</a> 
+								</div>
+							</center>
+						</div>
+
+						<div class = "research_project">
+							<div class = "research_project_title">
+								SpotGarbage: Smartphone App to Detect Garbage Using Deep Learning
+							</div>
+							<center>
+								<div class = "research_project_images">
+									<img class = "research_projects_image" src = "images/RP_SpotGarbage/img1.jpg" />
+									<br>
+								</div>
+								<div class = "research_project_abstract" style = "text-align:justify">
+									<b>Abstract: </b>
+									Maintaining a clean and hygienic civic environment is an indispensable yet formidable task, especially in developing countries. With the aim of engaging citizens to track and report on their neighborhoods, this paper presents a novel smartphone app, called SpotGarbage, which detects and coarsely segments garbage regions in a user-clicked geo-tagged image. The app utilizes the proposed deep architecture of fully convolutional networks for detecting garbage in images. The model has been trained on a newly introduced Garbage In Images (GINI) dataset, achieving a mean accuracy of 87.69%. The paper also proposes optimizations in the network architecture resulting in a reduction of 87.9% in memory usage and 96.8% in prediction time with no loss in accuracy, facilitating its usage in resource constrained smartphones.
+								</div>
+							</center>
+							<br>
+							<center>
+								<div class = "research_project_citations">
+<a href="https://github.com/spotgarbage/spotgarbage-GINI">G Mittal, K B Yagnik, M Garg, and N C Krishnan, Spot Garbage: Smartphone App to Detect Garbage Using Deep Learning, ACM International Joint Conference on Pervasive and Ubiquitous Computing, 940-945, 2016.</a>
+								</div>
+							</center>
+						</div>
+<div class = "research_project">
+							<div class = "research_project_title">
+								Transfer Learning and Domain Adaptation
+							</div>
+							<center>
+								<div class = "research_project_images">
+									<img class = "research_projects_image" src = "images/RP_DomainAdapt/img1.png" />
+									<br>
+								</div>
+								<div class = "research_project_abstract" style = "text-align:justify">
+									<b>Abstract: </b>
+									Heterogeneity of features and lack of correspondence between data points of different domains are the two primary challenges while performing feature transfer. In this paper, we present a novel supervised domain adaptation algorithm (SHDA-RF) that learns the mapping between heterogeneous features of different dimensions. Our algorithm uses the shared label distributions present across the domains as pivots for learning a sparse feature transformation. The shared label distributions and the relationship between the feature spaces and the label distributions are estimated in a supervised manner using random forests. We conduct extensive experiments on three diverse datasets of varying dimensions and sparsity to verify the superiority of the proposed approach over other baseline and state of the art transfer approaches.
+								</div>
+							</center>
+							<br>
+							<center>
+								<div class = "research_project_citations">
+
+                                    <p> S Sukhija, and N C Krishnan, Shallow Domain Adaptation – A survey, Springer book on Domain Adaptation in Computer Vision with Deep Learning, Eds: H Venkateswara, and S Panchanathan, 2020.</p>
+                                    <p>S Sukhija, S Varadarajan, N C Krishnan, and S Rai, Multi-Partition Feature Alignment Network for Unsupervised Domain Adaptation, IEEE International Joint Conference on Neural Networks (IJCNN), 2020</p>
+                                    <p>S Sukhija, and N C Krishnan, Supervised Heterogeneous Feature Transfer via Random Forests, Artificial Intelligence Journal, 2019</p>
+<p>S Sukhija and N C Krishnan, Web-Induced Heterogeneous Transfer Learning with Sample Selection, Accepted to European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases, 2018</p>
+<p>S Sukhija, N C Krishnan, and D Kumar, Supervised Heterogeneous Transfer Learning using Random Forests, Accepted to ACM International Joint Conference on Data Science and Management of Data, 2018</p>
+<p>S Sukhija, N C Krishnan, and G Singh, Supervised Heterogeneous Domain Adaptation via Random Forests, International Joint Conference on Artificial Intelligence, 2039-2045, 2016.</p>
+<p>S Sukhija, and N C Krishnan, Supervised Heterogeneous Domain Adaptation via Random Forests, Indian Workshop on Machine Learning, 2016</p>
+								</div>
+							</center>
+						</div>
+						<div class = "research_project">
+							<div class = "research_project_title">
+								Multi-Label Learning for Activity Recognition
+							</div>
+							<center>
+								<div class = "research_project_images">
+									<img class = "research_projects_image" src = "images/RP_ActivityRecog/img1.png" />
+									<br>
+								</div>
+								<div class = "research_project_abstract" style = "text-align:justify">
+									<b>Abstract: </b>
+									Advances in pervasive and ubiquitous computing have resulted in the development of sensors that can be easily deployed in the natural habitat of a human to acquire activity related data. However, inferring meaningful activity information from sensor data is still a challenging problem. This paper addresses the problem of inferring activities that are simultaneously performed by multiple residents in a smart home or single resident performing multiple activities concurrently. The paper formulates this problem as learning multiple activity labels from a sequence of sensor data. It investigates the suitability of multi-label learning algorithms inspired by decision trees as a proposed solution to the problem. The results obtained from the experiments on four benchmarking multi-resident activity datasets clearly indicate the superiority of decision tree ensemble (random forests) based approaches for multi-label learning.
+								</div>
+							</center>
+							<br>
+							<center>
+								<div class = "research_project_citations">
+									R Kumar, I Qamar, J S Virdi and N C Krishnan, Multi-label Learning for Activity Recognition, International Conference on Intelligent Environments, 152-155, 2015.
+								</div>
+							</center>
+						</div>
+
+					</div>
+
+			</div>
+
+
+			<div id = "footer">
+				<br>
+				<div id = "footer_hr">
+					<hr width = "60%" style = "transform:translateY(0.3em);"/>
+				</div>
+				<div id = "footer_options">
+						<ul class = "toolbar" style = "margin:-1.4em; padding-top:0.5em;display:inline-block">
+						  <li><a href="https://www.linkedin.com/in/narayananck">LinkedIn</a></li>
+						  <li><a href="#mail" onclick = "alert('E-mail: ckn@iitrpr.ac.in')">Mail</a></li>
+						</ul>
+						  
+				</div>
+				<div id = "footer_hr">
+					<hr width = "60%" style = "transform:translateY(-0.5em);"/>
+					<div id = "tracker" style = "transform:translateY(-0.5em)">
+                        <!-- Start: Copyright 2021 TraceMyIP.org Service Code (041143-08052021)- DO NOT MODIFY //-->
+                        <div id="elemID031021" style="line-height:16px;text-align:center;position:relative;z-index:100000;"><script type="text/javascript" src="//s2.tracemyip.org/tracker/lgUrl.php?stlVar2=1302&amp;rgtype=4684NR-IPIB&amp;pidnVar2=41297&amp;prtVar2=1&amp;scvVar2=12"></script><noscript><a href="https://www.tracemyip.org/website-visitors-alerts.htm"><img src="//s2.tracemyip.org/tracker/1302/4684NR-IPIB/41297/1/12/ans/" alt="Visitor notifications" style="border:0px;"></a></noscript></div> <!-- End: TraceMyIP.org Service Code //-->
+					</div>
+				</div>
+			</div>
+		</div>
+	</center>
+	<script src="js/jquery-1.12.4.js"></script>
+	<script type = "text/javascript" src = "js/research.js"></script>
+	<script src="js/frame.js"></script>
+</body>
+</html>

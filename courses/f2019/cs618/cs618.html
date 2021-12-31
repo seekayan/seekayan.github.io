@@ -1,0 +1,404 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>f19cs618</title>
+
+<link href="../../../css/layout.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.holiday {
+	color: #808080;
+}
+</style>
+</head>
+
+<body><div id="wrapper">
+
+  <div id="pre-header">
+	</div>
+
+  <div id="header">
+
+</div>
+
+<div id="content">
+
+
+<a name="top"></a>
+<h1 align="center">CS618 - Artificial Neural Networks- Fall 2019</h1>
+<p align="center">&nbsp;</p>
+<div align="center">
+<table width="600" border="0" align="center">
+  <tr>
+    <th width="150" scope="col"><em><a href="#courseinfo"> Course Information </a></em></th>
+    <th width="150" scope="col"><em><a href ="#grading">Grading Policy</a></em></th>
+    <th width="150" scope="col"><em><a href="#lectures">Lectures/Calendar</a></em></th>
+    <th width="150" scope="col"><em><a href="#labs">Labs</a></em></th>
+    </tr>
+</table>
+</div>
+<p align="center">&nbsp;</p>
+
+<a name="courseinfo"></a>
+<section title="Course Information">
+<h2 align="left"> Course Information </h2>
+<p>&nbsp;</p>
+
+<h3 align="left" class="heading3">Timings and Lecture Hall </h3>
+<p><strong>Time:</strong></p>
+<p><strong>Tuesday - 1.25-2.40pm</strong></p>
+<p><strong>Thursday - 12.00-1.15pm</strong></p>
+<p><strong>Location: CS1, SRB</strong></p>
+<h3 align="left" class="heading3">&nbsp; </h3>
+<h3 align="left" class="heading3">Description </h3>
+<p>Deep Learning aka artificial neural networks is increasingly the popular tool for solving various tasks in computer vision, natural language processing, speech processing, game playing, autonomous driving, etc. Thus, an expertise in deep neural networks is becoming a mandatory prerequisite for advanced academic programs and a gives a significant advantage in the industry job market. This course builds on the introductory course on machine learning to advance the students&rsquo; knowledge on artificial neural networks and their applications to various real-world applications. By the end of the course, it is expected that students will be familiar with internals of deep neural networks and also be able to apply it to a variety of applications. The students will also be sufficiently skilled and knowledgeable to learn and assimilate current literature on the topic independently. Background in Linear Algebra, Probability and Statistics, and Optimization will be helpful, though not necessary. The labs will use TensorFlow (version 2.0). </p>
+<p>&nbsp;</p>
+
+
+<h3 align="left" class="heading3">Reference Material </h3>
+<p> There is no fixed textbook for the course. However content will be adopted from the following textbooks and other research papers.</p>
+<ul> 
+<li><a href="http://deeplearning.cs.cmu.edu/data/DeepLearningBook.zip">Deep Learning</a> by Ian Goodfellow, Yoshua Bengio, Aaron Courville</li>
+<li><a href="http://neuralnetworksanddeeplearning.com/">Neural Networks and Deep Learning</a> by Michael Nielsen</li>
+<li><a href="http://d2l.ai/">Dive into Deep Learning</a> by Aston Zhang, Zachary C. Lipton, Mu Li, and Alex Smola</li>
+</ul>
+<p>In addition the book <a href="https://machinelearningmastery.com/deep-learning-with-python/">Deep Learning with Python</a> by J. Brownlee might be useful for getting started with the labs.
+</p>
+<p>&nbsp;</p>
+
+<h3 align="left" class="heading3">Instructor Details</h3> 
+<p><strong>Narayanan (CK) Chatapuram Krishnan</strong></p>
+<p><strong>Office Hours:</strong> Thursday 10.00-11.00am</p>
+<p><strong>Office:</strong> 17, CSE Building</p>
+<p><strong>Email:</strong> ckn@iitrpr.ac.in</p>
+<p>&nbsp;</p>
+
+<h3 align="left" class="heading3">Teaching Assistants Details</h3> 
+<p><strong>TBD</strong></p>
+<p>&nbsp;</p>
+
+<h3 align="left" class="heading3"> Academic Integrity </h3>
+<p align="justify">It is expected that students who are taking this course will demonstrate a keen interest in learning and not mere fulfilling the requirement towards their degree. Discussions that help the student understand a concept or a problem is encouraged. However, each student must turn in original work. Plagiarism/copying of any form, will be dealt with strict disciplinary action. This involves, copying from the internet, textbooks and any other material for which you do not own the copyright. Copying part of the code will be considered plagiarism. Lending the code to others will be considered plagiarism too, for it is difficult to investigate who copied whose code. <strong>Students who violate this policy will  directly receive a failing grade in the course.</strong> <strong>Remember - Your partial submission can fetch you some points, but submitting other's work as your own can result in you failing the course</strong>.  Please talk to the instructor if you have questions about this policy. All academic integrity issues will be handled in accordance with institute regulations.</p>
+<p>&nbsp;</p>
+
+<div align="right"> 
+<a href="#top">Scroll to top </a>
+<hr width="50%" />
+</div>
+</section>
+
+<a name="grading"></a>
+<section title="Grading">
+<h2 align="left"> Grading Policy </h2>
+<p>&nbsp;</p>
+
+<h3 class="heading3"> Grading Policy </h3>
+<p>&nbsp;</p>
+<p>
+  <strong> Labs:</strong> There will be 4 labs. Each lab will have a major programming component and will span for approximately two-three weeks. All the 4 labs will account for 40% of the overall grade. Students having difficulty with the labs are encouraged to contact the TA for assistance.
+  You are not required to be physically present in the lab during the lab hours. You can complete the labs at your convenience and turn it in by the deadline. There will be penalty for late submission of the labs. It will start at 1% for the first hour after the submission deadline and increase exponentially for every hour hence forth. A significant amount of time is actually spent fine tuning the parameters of the network. Therefore start the lab early!</p>
+<p>&nbsp;</p>
+<p><strong>Presentations:</strong> Each student will be given an opportunity to present a paper from conference such as ICML, ICLR, AAAI, NeurIPS, CVPR, etc. related to the topic of the course. This will account for 10% of the overall grade. The schedule for the presentation will be announced around week 3. </p>
+<p>&nbsp;</p>
+<p><strong>Project:</strong> There will be a course project worth 20% of the overall grade. This will be a group project with a much bigger scope than a typical undergraduate course project. The tentaive schedule for the project is as follows
+<ul>
+<li>Project Proposal (one page outline with the problem statement and references) - week 7</li>
+<li>Project Review - Week 12</li>
+<li>Final Report (ACM conference style 4-6 pages) Week 16</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Attendance: </strong>There is no mandatory attendance. However attendance will be taken in every class. This will consitute a bonus of 1% for the final grade and might be helpful for all border line students.</p>
+<p>&nbsp;</p>
+<p><strong>Passing Critera:</strong> A student must secure an overall score of 40 (out of 100) to pass the course.</p>
+<p>&nbsp;</p>
+
+<h3 class="heading3"> Tentative Grade Breakup* </h3>
+<table width="232" border="1">
+  <tr>
+    <th width="176" scope="row">Exams (Mid and End)</th>
+    <td width="40">30%</td>
+  </tr>
+  <tr>
+    <th scope="row">Labs (4)</th>
+    <td>30%</td>
+  </tr>
+  <tr>
+    <th scope="row">Presentation</th>
+    <td>10%</td>
+  </tr>
+    <tr>
+    <th scope="row">Project</th>
+    <td>30%</td>
+  </tr>
+    <tr>
+    <th scope="row">Total</th>
+    <td>100</td>
+  </tr>
+</table>
+<p>*This is a tentative breakup of the grades and can change at the discretion of the instructor. However, any change with respect to the grade break-up will be intimated in advance.</p>
+<p>&nbsp;</p>
+<p><strong>Grade Sheet:</strong><a href="grades.pdf">PDF</a></p>
+
+<div align="right"> 
+<a href="#top">Scroll to top </a>
+<hr width="50%" />
+</div>
+</section>
+
+<a name="lectures"></a>
+<section title="Lectures and Calendar">
+<h2 align="left"> Lectures and Calendar </h2>
+<p align="left">&nbsp;</p>
+<h3 class="heading3">Tentative Schedule and List of Topics*</h3>
+<div  align="center">
+<table width="900" border="1">
+  <tr>
+    <th width="200" scope="col">Week</th>
+    <th width="650" scope="col">Topic and Readings</th>
+    <th width="100" scope="col"><div align="center">Quiz/Lab</div></th>
+  </tr>
+  <tr>
+    <th scope="row">1 (Aug1-Aug2)</th>
+    <td><p><a href="w1.pdf">Introduction</a><br />
+    <ul>
+        <li><p>&nbsp;</p></li>
+        </ul></p>
+    </td> 
+    <td><div align="center"></div></td>
+  </tr>
+  <tr>
+   <th scope="row">2 (Aug5-Aug9)
+     <p>&nbsp;</p></th>
+    <td><p><a href="w2.pdf">Perceptron and Multilayer Perceptrons</a><br />
+Readings: 
+      <ul>
+        <li>Chapter 4, Nielsen</li>
+        <li><a href="https://www.cse.iitb.ac.in/~shivaram/teaching/old/cs344+386-s2017/resources/classnote-1.pdf">Perceptron Convergence Theorem</a></li>
+      </ul></p>
+    </td>
+    <td><div align="center"></div></td>
+  </tr>
+  <tr>
+    <th scope="row">3 (Aug12-Aug16)
+      <p>&nbsp;</p></th>
+    <td><p><a href="w3.pdf">Feedforward Networks</a><br />
+Readings:<br />      
+	<ul>
+        <li>Chapter 3, Goodfellow, Bengio, Courville</li>
+        <li><a href="https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence">Wiki - Kullback-Leibler Divergence</a></li>
+        <li><a href="http://colah.github.io/posts/2015-08-Backprop/">Excellent Description of Computational Graphs</a></li>
+      </ul>	</p>
+	</td>
+    <td><div align="center"><a href="l0.pdf">L0</a></div></td>
+  </tr>
+  <tr>
+   <th scope="row">4 (Aug19-Aug23)</th>
+    <td><p><a href="w4.pdf">Training Feedforward Networks</a><br />
+Readings:<br />      
+	<ul>
+        <li>Chapter 8, Goodfellow, Bengio, Courville</li>
+        <li><a href="http://www.denizyuret.com/2015/03/alec-radfords-animations-for.html">Animations of SGD, Momentum, NAG, Adagrad, RMSProp</a></li>
+      <li><a href="https://arxiv.org/pdf/1502.03167.pdf">Batch Normalization</a></li>
+      <li><a href="http://www.jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf">Dropout</a></li>
+      </ul></p>
+	</td>
+    <td><div align="center"></div></td>
+  </tr>
+  <tr>
+    <th scope="row">5 (Aug26-Aug30)
+      <p>&nbsp;</p></th>
+    <td rowspan="2"><p><a href="w5.pdf">Convolutional Neural Networks</a><br />
+Readings:<br />      
+	<ul>
+        <li>Chapter 9, Goodfellow, Bengio, Courville</li>
+        <li><a href="http://cs231n.github.io/convolutional-networks/">Notes on CNN</a></li>
+        <li><a href="https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf">AlexNet</a></li>
+        <li><a href="https://arxiv.org/pdf/1409.1556.pdf">VGGNet</a></li>
+        <li><a href="https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Szegedy_Rethinking_the_Inception_CVPR_2016_paper.pdf">Inception</a></li>
+        <li><a href="https://arxiv.org/pdf/1512.03385.pdf">Residual Network</a></li>
+      </ul></p>
+	</td>
+    <td><div align="center"></div></td>
+  </tr>
+  <tr>
+     <th scope="row">6 (Sep2-Sep6)</th>
+        <td><div align="center"></div></td>
+  </tr>
+  <tr>
+    <th scope="row">7 (Sep9-Sep13)</th>
+    <td><p><a href="w7-8.pdf">Sequence Modeling I</a><br />
+Readings:<br />      
+	<ul>
+        <li>Chapter 10, Goodfellow, Bengio, Courville</li>
+        <li><a href="https://arxiv.org/pdf/1211.5063.pdf">On the Difficulty of Training RNNs</a></li>
+        <li><a href="https://colah.github.io/posts/2015-08-Understanding-LSTMs/">Understanding LSTM</a></li>
+        <li><a href="https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation-44e9eb85bf21">Illustration of LSTM and GRU</a></li>
+        <li><a href="https://r2rt.com/written-memories-understanding-deriving-and-extending-the-lstm.html">Intuitive Explanation for LSTM</a></li>
+      </ul></p>
+	</td>
+    <td><div align="center"><a href="l1.pdf">L1</a> (Sep 13)</div></td>
+  </tr>
+  <tr>
+    <th scope="row">8 (Sep16-Sep20)</th>
+    <td><p><a href="w7-8.pdf">Sequence Modeling II</a><br />
+Readings:<br />      
+	<ul>
+        <li><a href="https://www.cs.toronto.edu/~graves/icml_2006.pdf">Connectionist Temporal Classification (CTC)</a></li>
+        <li><a href="https://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf">Sequence to Sequence Learning with Neural Networks</a></li>
+        <li><a href="https://arxiv.org/pdf/1409.0473.pdf">Neural Machine Translation by Jointly Learning to Align and Translate</a></li>
+        <li><a href="https://arxiv.org/pdf/1508.04025.pdf">Global vs Local Attention</a></li>
+        <li><a href="http://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf">Multihead Self Attention</a></li>
+        <li><a href="https://kelvinxu.github.io/projects/capgen.html">Show, attend, and tell: Neural Image Caption Generation with Visual Attention</a></li>
+      </ul></p>
+	</td>
+    <td><div align="center"></div></td>
+  </tr>
+  <tr class="holiday">
+     <th scope="row">9 (Sep23-Sep27)</th>
+    <td><p>Mid-Sem-Week<br /></p>
+	</td>
+    <td><div align="center"></div></td>
+  </tr>
+  <tr>
+    <th scope="row">10 (Sep30-Oct4)</th>
+    <td><p><a href="w10-11a.pdf">Deep Generative Models I</a><br />
+Readings:<br />      
+	<ul>
+        <li>Chapter 20, Goodfellow, Bengio, Courville</li>
+        <li><a href="https://www.cs.toronto.edu/~hinton/absps/guideTR.pdf">Guide to Restricted Boltzmann Machines</a></li>
+        <li><a href="http://proceedings.mlr.press/v5/salakhutdinov09a/salakhutdinov09a.pdf">Deep Boltzmann Machines</a></li>
+      </ul>	</p>
+	</td>
+    <td><div align="center"></div></td>
+  </tr>
+  <tr>
+   <th scope="row">11 (Oct7-Oct11)</th>
+   <td rowspan="2"><p><a href="w10-11b.pdf">Deep Generative Models II</a><br />
+Readings:<br />      
+	<ul>
+        <li>Chapter 20, Goodfellow, Bengio, Courville</li>
+        <li><a href="https://arxiv.org/abs/1312.6114"> Variational Autoencoders</a></li>
+        <li><a href="https://arxiv.org/pdf/1702.08658.pdf">Towards a deeper understanding of VAE</a></li>
+        <li><a href="http://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf">Generative Adversarial Networks</a></li>
+        <li><a href="https://arxiv.org/pdf/1701.00160.pdf">GAN Tutorial</a></li>
+        <li><a href="https://arxiv.org/pdf/1512.09300.pdf">Autoencoding beyond pixels using a learned similarity metric</a></li>
+        <li><a href="https://arxiv.org/pdf/1704.02304.pdf">It Takes (Only) Two:
+            Adversarial Generator-Encoder Networks</a></li>
+        <li><a href="https://arxiv.org/pdf/1706.04987.pdf">Variational approaches for autoencoding generative adversarial networks</a></li>
+        <li><a href="https://arxiv.org/pdf/1909.13062.pdf">Implicit Discriminator in Variational Autoencoder</a></li>
+      </ul></p>
+	</td>
+    <td><div align="center"><a href="l2.pdf">L2</a> (Oct 8)</div></td>
+  </tr>
+  <tr>
+    <th scope="row">12 (Oct14-Oct18)</th>
+    <td><div align="center"></div></td>
+  </tr>
+  <tr>
+    <th scope="row">13 (Oct21-Oct25)
+      <p>&nbsp;</p></th>
+      <td><p>Student Presentations<br />
+Readings:<br />      
+	<ul>
+        <li><a href="deepfakes.pdf">H. H. Nguyen, J. Yamagishi, and I. Echizen. Capsule-forensics: Using capsule networks to detect forged images and videos, ICASSP 2019</a></li>
+        <li><a href="structuralrnn.pdf">Ashesh Jain, Amir R. Zamir, Silvio Savarese, and Ashutosh Saxena. Structural-rnn: Deep learning on spatio- temporal graphs. In The IEEE Conference on Computer Vision and Pattern Recognition, June 2016</a></li>
+        <li><a href="voxelnet.pdf">Yin Zhou, Oncel Tuzel; VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection, IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018, pp. 4490-4499</a></li>
+        <li><a href="stereo-rcnn.pdf">Peiliang Li, Xiaozhi Chen, Shaojie Shen, Stereo R-CNN Based 3D Object Detection for Autonomous Driving, The IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2019, pp. 7644-7652</a></li>
+        <li><a href="net2vec.pdf">Fong, Ruth and Andrea Vedaldi, Net2Vec: Quantifying and Explaining How Concepts are Encoded by Filters in Deep Neural Networks, 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition (2018): 8730-8738.</a></li>
+        <li><a href="selfexplaining.pdf">David Alvarez-Melis and Tommi S. Jaakkola, Towards robust interpretability with self-explaining neural networks. In Proceedings of the 32nd International Conference on Neural Information Processing Systems, 2018, 7786-7795.</a></li>
+      </ul></p>
+	</td>
+    <td><div align="center"></div></td>
+  </tr>
+  <tr>
+     <th scope="row">14 (Oct28-Nov1)
+       <p>&nbsp;</p></th>
+    <td><p>Student Presentations<br />
+Readings:<br />      
+	<ul>
+        <li><a href="ICNN.pdf">Zhang, Quanshi, Ying Nian Wu and Song-Chun Zhu. Interpretable Convolutional Neural Networks, IEEE/CVF Conference on Computer Vision and Pattern Recognition 2018, 8827-8836.</a></li>
+        <li><a href="autoloss.pdf">Xu, Haowen, Hao Zhang, Zhiting Hu, Xiaodan Liang, Ruslan Salakhutdinov and Eric P. Xing. AutoLoss: Learning Discrete Schedule for Alternate Optimization, International Conference on Learning Representations, 2019</a></li>
+        <li><a href="maml.pdf">Finn, C., Abbeel, P., Levine, S, Model-agnostic meta-learning for fast adaptation of deep networks, International Conference on Machine Learning, 2017, 1126-1135</a></li>
+        <li><a href="hypernetworks.pdf">David Ha, Andrew Dai, Quoc V. Le, Hypernetworks, International Conference on Learning Representations, 2016</a></li>
+        <li>D. Stamoulis, Ruizhou Ding, Di Wang, Dimitrios Lymberopoulos, Bodhi Priyantha, Jie Liu, Diana Marculescu, Single-Path NAS: Designing Hardware-Efficient ConvNets in less than 4 Hours, ECML-PKDD, 2019</li>
+        <li>Saining Xie, Alexander Kirillov, Ross Girshick, Kaiming He, Exploring randomly wired neural networks for image recognition. arXiv preprint arXiv:1904.01569, 2019</li>
+      </ul></p>
+	</td>
+    <td><div align="center"><a href="l3.pdf">L3</a> (Nov 1)</div></td>
+  </tr>
+  <tr>
+     <th scope="row">15 (Nov4-Nov8)</th>
+    <td><p>Student Presentations</a><br />
+Readings:<br />      
+	<ul>
+        <li><a href="nas.pdf">Dong, Xuanyi, and Yi Yang. Searching for a robust neural architecture in four gpu hours, Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2019</a></li>
+        <li><a href="dynamicnetworksurgery.pdf">Yiwen Guo, Anbang Yao, and Yurong Chen, Dynamic network surgery for efficient DNNs. International Conference on Neural Information Processing Systems, 2016, 1387-1395.</a></li>
+        <li><a href="interpretingmodelpredictions.pdf">Scott M Lundberg and Su-In Lee, A Unified Approach to Interpreting Model Predictions. In Advances in Neural Information Processing Systems, 2017, 4768–4777</a></li>
+        <li><a href="deepinterpolation.pdf">Bao Wang, Zhen Li, Zuoqiang Shi, Xiyang Luo, Wei Zhu, and Stanley J. Osher, Deep neural nets with interpolating function as output activation, International Conference on Neural Information Processing Systems, 2018, 751-761</a></li>
+        <li><a href="2018csm1011.pdf">J Chen, L Song, MJ Wainwright, MI Jordan, Learning to explain: An information-theoretic perspective on model interpretation, International Conference on Machine Learning, 2018</a></li>
+        <li><a href="nnn.pdf">Tobias Plötz and Stefan Roth, Neural nearest neighbors networks, International Conference on Neural Information Processing Systems, 2018, 1095-1106.</a></li>
+      </ul></p>
+	</td>
+    <td><div align="center"></div></td>
+  </tr>
+  <tr>
+    <th scope="row">16 (Nov11-Nov15)</th>
+    <td><p><a href="w16.pdf">Zero-shot Learning</a><br />
+Readings:<br />      
+	<ul>
+        <li><a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Paul_Semantically_Aligned_Bias_Reducing_Zero_Shot_Learning_CVPR_2019_paper.pdf
+">Semantically Aligned Bias Reducing Zero-shot Learning</a></li>
+      </ul></p>
+	</td>
+    <td><div align="center"></div></td>
+  </tr>
+  <tr>
+   <th scope="row">17 (Nov18-Nov22)</th>
+    <td><p><a href="w17.pdf">Deep Reinforcement Learning</a><br />
+Readings:<br />      
+	<ul>
+        <li></li>
+      </ul></p>
+	</td>
+    <td><div align="center"><a href="l4.pdf">L4</a> (Nov 20)</div></td>
+  </tr>
+    <tr class="holiday">
+   <th scope="row">18 (Nov25-Nov29)</th>
+    <td><p>End-Sem-Week<br /></p>
+	</td>
+    <td><div align="center"></div></td>
+  </tr>
+ 
+</table>
+</div>
+<p>*This is a tentative list of topics that will be covered during the semester. The topics and schedule can change according to the need at the discretion of the instructor. </p>
+<div align="right"> 
+  <a href="#top">Scroll to top </a>
+  <hr width="50%" />
+</div>
+</section>
+
+<a name="labs"></a>
+<section title="Labs">
+<h2 align="left"> Labs </h2>
+<ul>
+	<li><a href="l0.pdf">Lab 0 - Warmup ungraded lab to familiarize with TensorFlow 2.0 framework.</a> - due 11.55pm Monday August 12th 2019</li>
+  <li><a href="l1.pdf">Lab 1 - Understanding the effectiveness of different optimization algorithms for training multilayer perceptrons</a> - due 11.55pm Monday September 13th 2019</li>
+  <li><a href="l2.pdf">Lab 2 - CNNs for image classification, visualizing the feature maps, and explaining the working of the CNN model</a>due 11.55pm  Tuesday October 8th 2019</li>
+  <li><a href="l3.pdf">Lab 3 - Sequence modeling - combining CNNs and LSTMs for image captioning</a> due 11.55pm Friday, November 1st 2019</li>
+  <li><a href="l4.pdf">Lab 4 - Generative Modeling through GANs</a> due 11.55pm Monday November 20th 2019</li>
+</ul>
+<p align="left">&nbsp;</p>
+<div align="right"> 
+  <a href="#top">Scroll to top </a>
+  <hr width="50%" />
+</div>
+</section>
+
+</div>
+
+<div id="footer">
+<p>Narayanan (CK) Chatapuram Krishnan - ckn@iitrpr.ac.in - Indian Institute of Technology Ropar</p>
+</div>
+
+</html>

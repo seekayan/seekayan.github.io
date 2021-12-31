@@ -1,0 +1,310 @@
+<!doctype html>
+<html>
+<head>
+	<title>LSAIML</title>
+
+	<!--
+		Importing the css files.
+		-->
+	<link href = "css/bootstrap.min.css" rel = "stylesheet" type = "text/css" />
+	<link href = "css/dataTables.bootstrap.min.css" rel = "stylesheet" type = "text/css" />
+	<link href = "css/fixedHeader.bootstrap.min.css" rel = "stylesheet" type = "text/css" />
+	<link href = "css/responsive.bootstrap.min.css" rel = "stylesheet" type = "text/css" />
+	<link href = "css/frame.css" rel = "stylesheet" type = "text/css" />
+	<link href = "css/index.css" rel = "stylesheet" type = "text/css" />
+
+	<!--
+		Setting The Logo!
+		-->
+	<link rel="shortcut icon" href="images/icon.png">
+</head>
+<body onload = "setScreenSize()">
+	<center>
+		<div id = "container">
+			
+			<div style = "height:8em; width:85%; border:2px solid transparent; margin-top:0.2em; margin-bottom:-1em">
+				
+				<div id = "top_data" style= "display:inline-block; float:left;">
+						<h1 style = "font-family:'Varela'; padding:0em; margin-bottom:0em; padding-left:0px; padding-right:0px;"><a href = "http://www.iitrpr.ac.in" style = "color:black" target = "_blank">Indian Institute of Technology Ropar</a></h1>
+					<br><h3 style = "font-family:'Varela';float:left; margin:0em; padding:0em; padding-left:0px;display:inline-block; padding-right:0px">Laboratory of Statistical Artificial Intelligence and Machine Learning (LSAIML)</h3>
+				</div>
+				<img src = "images/logo.jpg" style = "float:right;height:100%; transform:translateY(0.5em)" />
+			</div>
+
+			<br>
+			<div id = "navbar">
+				<br>
+				<div id = "navbar_hr">
+					<hr width = "75%"/>
+				</div>
+				<div id = "navbar_options" style= "font-size:1.1em">
+						<ul class = "toolbar">
+						  <li><a class="active" href="./index.html" style= "color:#0000A0">HOME</a></li>
+						  <li><a href="./research.html" style= "color:#0000A0">RESEARCH</a></li>
+						  <li><a href="./publications.html" style= "color:#0000A0">PUBLICATIONS</a></li>
+						  <li><a href="./teaching.html" style= "color:#0000A0">TEACHING</a></li>
+						  <li><a href="./people.html" style= "color:#0000A0">PEOPLE</a></li>
+						  <li><a href="./resources.html" style= "color:#0000A0">RESOURCES</a></li>
+						</ul>
+				</div>
+			</div>
+
+			<div id = "main_container">
+
+				<div id = "container_top">
+					<div id = "container_top_image">
+                        <img src = "./images/wordcloud.png" style = width:100%;>
+					</div>
+				</div>
+                
+
+				<div id = "container_data_one" style = "text-align:justify;">
+					
+						<span style = "font-family:'Helvetica'">
+							Our laboratory works on fundamental artificial intelligence and machine learning problems, in particular generalizability (through transfer learning, domain adaptation, zero-shot learning, and few-shot learning), generative models, amd explainability. Our research is inspired from applications in computer vision and remote sensing, ubiquitous computing and ICT4D. The above image is a word cloud of the publications from the lab (courtsey: <a href="http://www.wordle.net/">wordle</a>)
+						</span>
+					
+				</div>
+
+				<div id = "container_recent_updates" style = "text-align:justify; font-family:Helvetica">
+						<center><h3 style = "font-family:'Varela';"><img src="images/new.gif" style = "vertical-align:top"/> - <b>RECENT UPDATES</b> -</h3></center>
+					<table id="recent_updates" class="table table-striped table-bordered" style = "border:2px solid transparent; padding:0.5em" cellspacing="0" width="100%; font-family:'Helvetica'">
+					          <thead style = "display:none">
+						        <tr>
+						          <th>Update</th>
+					            </tr>
+					          </thead>
+						      <tbody>
+                                  <tr>
+                                            <td>Evaluating saliency based explanation methods, accepted to ICML workshop on theoretic foundation, criticisn, and application trend of explainable AI, Congratulations Sam, Vidhya and Namrata.</td>
+                                  </tr>
+                                  <tr>
+                                            <td>Machine Learning Research Talk Series: Speakers include Dr. Hemanth Venkateswara (ASU), Dr. Gautam Kunapuli (Verisk Analytics), Dr. Chandrasekhar Lakshminarayan (IIT Pkd), Dr. Harshad Khadilkar (TCS Research). Dr. Amit Dhurandhar (IBM Research), Prof. Vivek Srikumar (Univ. Utah), Dr. Maneesh Singh (Verisk Analytics), Dr. Ganesh Ghalme (Technion), Dr. Adway Mitra (IIT Kgp), Prof. Akshat Kumar (SMU), Prof. Balaraman Ravindran (IIT M).</td>
+                                  </tr>
+                                  <tr>
+                                            <td>Characterizing GAN convergence through proximal duality gap, accepted to ICML 2021, Congratulations Sahil and Aroof.</td>
+                                  </tr>
+                                  <tr>
+                                            <td>Pho(SC)Net: an approach towards zero-shot word image recognition in historical documents, accepted to ICDAR 2021, Congratulations Anuj, and Thanks to our collaborator Dr. Chanda.</td>
+                                  </tr>
+                                  <tr>
+                                            <td>2021(20) DST-Humboldt Foundation supported Indo-German Frontiers of Engineering Symposium, Chaired Session - Machine Learning and Big Data Analytics.</td>
+                                  </tr>
+                                  <tr>
+                                            <td>On duality-gap as a measure for monitoring GAN training, accepted to IJCNN 2021, Congratulations Sahil, Aroof, and Vineet</td>
+                                  </tr>
+                                  <tr>
+                                            <td>PACE:  posthoc architecture-agnostic concept extractor for explaining CNNs, accepted to IJCNN 2021, Congratulations Vidhya, and Uday.</td>
+                                  </tr>
+                                  <tr>
+                                            <td>MAIRE - a model agnostic interpretable rule extraction procedure for explaining classifiers, accepted to CD-MAKE 2021, Congratulations to Rajat, Nikhil, and Vidhya and Thanks to our collaborator Dr. Shweta Jain.</td>
+                                  </tr>
+                                  <tr>
+                                            <td>CK is serving as a PC member/reviewer for AAAI, ICML, NeurIPS, ICCV, KDD, and CVPR 2021. He is an expert reviewer for ICML 2021.</td>
+                                  </tr>
+                                  <tr>
+                                            <td>Due to ease of maintenance all new material related to teaching will be posted on the respective Google Classroom pages.</td>
+                                  </tr>
+                                  <tr>
+                                            <td>Congratulations Nikhil on receiving the Institute Silver Medal 2020!</td>
+                                  </tr>
+                                  <tr>
+                                            <td>Can Google trends search inform us about the population response and public health of alcohol policy, collaborative work with Dr. Abhishek Ghosh from PGIMER CHD accepted to Journal of Drug Policy.</td>
+                                  </tr>
+                                  <tr>
+                                            <td>Stress testing of meta-learning approaches for few-shot learning, accepted to AAAI workshop on meta-learning and challenge, 2021, Congratulations Aroof, Sahil, and Vineet.</td>
+                                  </tr>
+                                  <tr>
+                                            <td>Consultancy project from Verisk Analytics.</td>
+                                  </tr>
+                                  <tr>
+                                            <td>Collaborative Research support from DST-SERB for Efficacy of mobile App based screening and intervention for alcohol misuse - with PI Dr. Abhishek Ghosh from PGIMER CHD. </td>
+                                  </tr>
+                                  <tr>
+                                            <td>Congratulations Prateek on receiving the Institute Silver Medal 2019!</td>
+                                  </tr>
+                                  <tr>
+                                            <td>Collaborative Research support from DST-NRDMS for slope monitoring and landslide forecasting using AI and ML, with PI Dr. Naveen James from Dept. of Civil Eng. </td>
+                                  </tr>
+                                  <tr>
+                                            <td>Top 10% Reviewer award at Neurips 2020 for CK. He is also a PC member/ reviewer for AAAI, ACM MM, and CVPR 2020</td>
+                                  </tr>
+                                  <tr>
+                                            <td>Shallow domain adaptation - a survey, book chapter accepted to Springer book on Domain adaptation in computer vision with deep learning. Congratulations Sanatan.</td>
+                                  </tr>
+                                  <tr>
+                                            <td>Implicit discriminator in variational autoencoder, accepted to IJCNN 2020, Congratulations Prateek and Akanksha. and Multi-partitional feature alignment for unsupervised domain adaptation accepted to IJCNN 2020. Congratulations Prateek, and Akanksha.</td>
+                                  </tr>
+                                  <tr>
+                                            <td> Multi-partitional feature alignment for unsupervised domain adaptation accepted to IJCNN 2020. Congratulations to Sanatan and Thanks to our collaborator Dr. Varadarajan.</td>
+                                  </tr>
+                                  <tr>
+                                      <td>Sanatan successfully defends his docotoral dissertation. Congratulations Dr. Sanatan Sukhija! Wish you all the best in your academic journey</td>
+                                  </tr>
+                                  <tr>
+                                      <td>Congratulations Prateek on receiving the Institute Silver Medal!</td>
+                                  </tr>
+                                  <tr>
+                                      <td>Akanksha successfully defends her MS Thesis. Congratulations Akanksha!</td>
+                                  </tr>
+                                  <tr>
+                                      <td>Thanks to Google and TensorFlow for the generous support for CS618 course on Artificial Neural Networks.</td>
+                                  </tr>
+                                  <tr>
+                                      <td>Thanks to Google for providing $2000 worth GCP credits!</td>
+                                  </tr>
+                                  <tr>
+                                      <td>Akanksha receives the best poster presentation award at IIT Ropar Research Conclave. Congratulations!</td>
+                                  </tr>
+                                  <tr>
+                                      <td>Microsoft, ACM-IARCS, and WiCV provide support to Akanksha for participating in CVPR 2019</td>
+                                  </tr>
+                                  <tr>
+                                      <td>Semantically Aligned Bias Reducing Zero Shot Learning - paper accepted to CVPR 2019. Congratulations Akanksha and Prateek!</td>
+                                  </tr>
+                              <tr>
+						          <td>Collaborative Research Support from DST for Additive Manufacturing & Machine Learning based Development of Indigenous Hydrogen Fuel Cell Stack, PI- Dhiraj Mahajan</td>
+					          </tr>
+                              <tr>
+						          <td>Supervised Heterogeneous Feature Transfer via Random Forests - paper accepted to the Artificial Intelligence Journal. Congratulations Sanatan!</td>
+					          </tr>
+						      <tr>
+						          <td>Grateful to DST for supporting CK's travel to ACM MM</td>
+					            </tr>
+						      <tr>
+						          <td>Grateful to DST, Microsoft, and ACM for supporting Sanatan's travel to ECML</td>
+					            </tr>
+						      <tr>
+						          <td>CK will be teaching <a href="courses/f2018/csl603/csl603.html">CSL503/603 - Machine Learning.</a> Check the course website for the details</td>
+					          </tr>
+						      <tr>
+						          <td>Deep Cross modal learning for Caricature Verification and Identification (CaVINet) - Full research paper accepted to ACM MM 2018. Congratulations Skand, Jatin, and Himanshu!</td>
+					            </tr>
+						      <tr>
+						          <td>Web-Induced Heterogeneous Transfer Learning with Sample Selection - paper acccepted to ECML-PKDD 2018. Congratulations Sanatan!</td>
+					            </tr>
+						      <tr>
+						          <td> CK will be teaching <a href="courses/s2018/csl302/csl302.html">CSL302 - Artificial Intelligence</a>. Check the course website for details </td>
+					            </tr>
+						      <tr>
+						          <td> Poverty prediction from satellite images through deep learning - paper accepted to IAAI 2018. Congratulations Shailesh and Tushar! </td>
+					            </tr>
+						      <tr>
+						          <td><a href="https://github.com/spotgarbage/spotgarbage-GINI">Garbage in images (GINI) dataset</a> released. </td>
+					            </tr>
+						        <tr>
+						          <td> Congratulations Sanatan for getting a paper accepted to ACM-CODS-COMADS 2018 and a student abstract to AAAI 2018 </td>
+					            </tr>
+						        <tr>
+						          <td> CK will be teaching <a href = "http://cse.iitrpr.ac.in/ckn/courses/f2017/csl603/csl603.html">CSL603 - Machine Learning</a>. Check the course webpage for details. </td>
+					            </tr>
+						        <tr>
+						          <td> Congratulations <a href="http://agarwalt.github.io/">Tushar Aggarwal</a>! on being selected to particpate in the prestigious <a href="http://www.heidelberg-laureate-forum.org/">Heidelberg Laureate Forum </a></td>
+					            </tr>
+						        <tr>
+						          <td> Grateful to NVIDIA for donating a TitanX Pascal card through the academic hardware grant request program. </td>
+					            </tr>
+						        <tr>
+						          <td> I will be teaching <a href = "http://cse.iitrpr.ac.in/ckn/courses/s2017/csl302/csl302.html">CSL302 - Artificial Intelligence</a>. Check the course webpage for details. </td>
+					            </tr>
+						        <tr>
+						          <td> Spot Garbage team wins the INAE Student Project of the year award for 2016. Congratulations Gaurav, Kaushal and Mohit! </td>
+					            </tr>
+						        <tr>
+						          <td> Brain Segmentation paper accepted to ICVGIP 2016. Congratulations Apoorva and Gaurav! </td>
+					            </tr>
+						        <tr>
+						          <td> Grateful to Microsoft for the unrestricted research grant. </td>
+					            </tr>
+						        <tr>
+						          <td> I will be teaching <a href="courses/f2016/csl603/csl603.html">CSL603 - Machine Learning</a> in Fall 2016. Check the course webpage for details. </td>
+					            </tr>
+						        <tr>
+						          <td> Spot Garbage paper accepted to UbiComp 2016! Congratulations Gaurav, Kaushal and Mohit - an all undergraduate team! </td>
+					            </tr>
+						        <tr>
+						          <td> Thanks ACM IARCS, IJCAI, and Microsoft for supporting Sanatan's travel to IJCAI 2016. </td>
+					            </tr>
+						        <tr>
+						          <td> Grateful to NVIDIA for donating a TitanX card through the academic hardware grant request program. </td>
+					            </tr>
+						        <tr>
+						          <td><a href="http://www.iitrpr.ac.in/2016-microsoft-imagine-cup-national-champions">Team KudaPehchano from IIT Ropar consisting of Gaurav, Kaushal, and Mohit are the 2016 Microsoft Imagine Cup National Champions in the World Citizenship category! Congratulations guys! and Good luck at the World Semifinals.</a></td>
+					            </tr>
+						        <tr>
+						          <td> Sanatan's first paper accepted to IJCAI 2016! </td>
+					            </tr>
+						        <tr>
+						          <td> DST-YSS project approved for conducting research in "Activity Learning in Smart Environments" </td>
+					            </tr>
+						        <tr>
+						          <td><a href="http://as.wiley.com/WileyCDA/WileyTitle/productCd-111889376X.html">Co-authored book on Activity Learning: Discovering, Recognizing, and Predicting Human Behavior from Sensor Data</a> was published by Wiley. </td>
+					            </tr>
+					          </tbody>
+					</table>
+				</div>
+
+
+				<div class = "container_data_updates" style = "text-align:justify">
+					<h2><u>Prospective PhD and MS Research Students</u> <img src="images/new.gif"/></h2>
+					The lab is looking for students technically strong in Mathematics and Computer Science interested in the data mining, machine learning, pervasive computing and related fields. Prospective students must also possess excellent programming and communication skills. Please contact  if you are one of them. The lab is also interested in industry/health care related problems that can be solved using data mining and machine learning techniques. Please do contact  if you have an interesting problem.
+				</div>
+
+				<div class = "container_data_updates" style = "text-align:justify">
+					<h2><u>Summer Internship</u> <img src="images/new.gif"/></h2>
+					Students technically strong in Mathematics and Computer Science with an aptitude for data mining, ubiquitous computing and related fields may apply through the INSA SRF program. The lab will not be taking students outside this program and will not be able to respond to your individual queries.
+				</div>
+
+
+
+
+			</div>
+
+
+
+			<div id = "footer">
+				<br>
+				<div id = "footer_hr">
+					<hr width = "60%" style = "transform:translateY(0.3em);"/>
+				</div>
+				<div id = "footer_options">
+						<ul class = "toolbar" style = "margin:-1.4em; padding-top:0.5em;display:inline-block">
+						  <li><a href="https://www.linkedin.com/in/narayananck">LinkedIn</a></li>
+						  <li><a href="#mail" onclick = "alert('E-mail: ckn@iitrpr.ac.in')">Mail</a></li>
+						</ul>
+						  
+				</div>
+				<div id = "footer_hr">
+					<hr width = "60%" style = "transform:translateY(-0.5em);"/>
+					<div id = "tracker" style = "transform:translateY(-0.5em)">
+                        <!-- Start: Copyright 2021 TraceMyIP.org Service Code (041143-08052021)- DO NOT MODIFY //-->
+                        <div id="elemID031021" style="line-height:16px;text-align:center;position:relative;z-index:100000;"><script type="text/javascript" src="//s2.tracemyip.org/tracker/lgUrl.php?stlVar2=1302&amp;rgtype=4684NR-IPIB&amp;pidnVar2=41297&amp;prtVar2=1&amp;scvVar2=12"></script><noscript><a href="https://www.tracemyip.org/website-visitors-alerts.htm"><img src="//s2.tracemyip.org/tracker/1302/4684NR-IPIB/41297/1/12/ans/" alt="Visitor notifications" style="border:0px;"></a></noscript></div> <!-- End: TraceMyIP.org Service Code //-->
+					</div>
+				</div>
+			</div>
+ 	
+
+		</div>
+	</center>
+
+
+	<script src="js/jquery-1.12.4.js"></script>
+	<script src="js/jquery.dataTables.min.js"></script>
+	<script src="js/dataTables.bootstrap.min.js"></script>
+	<script src="js/dataTables.fixedHeader.min.js"></script>
+	<script src="js/dataTables.responsive.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/frame.js"></script>
+	<script src="js/responsive.bootstrap.min.js"></script>
+	<script>
+		$(document).ready(function() {
+	    var table = $('#recent_updates').DataTable( {
+	         "order": []
+
+	    } );
+	 
+	    new $.fn.dataTable.FixedHeader( table );
+		} );
+	</script>
+</body>
+</html>
